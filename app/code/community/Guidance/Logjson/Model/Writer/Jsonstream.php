@@ -16,7 +16,7 @@ class Guidance_Logjson_Model_Writer_Jsonstream extends Zend_Log_Writer_Stream
      */
     public function __construct($streamOrUrl, $mode = NULL)
     {
-        parent::__construct($streamOrUrl, $mode = NULL);
+        parent::__construct($streamOrUrl, $mode);
         $this->_formatter = new Guidance_Logjson_Model_Formatter_Json();
     }
 
