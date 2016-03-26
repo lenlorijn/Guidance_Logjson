@@ -1,0 +1,12 @@
+{
+    "name": "guidance/logjson",
+    "description": "Magento 1 module to log as JSON",
+    "type": "magento-module",
+    "homepage": "https://github.com/guidance/Guidance_Logjson",
+    "authors": [
+        {
+            "name": "Gordon Knoppe",
+            "email": "gknop@guidance.com>"
+        }
+    ]
+}
